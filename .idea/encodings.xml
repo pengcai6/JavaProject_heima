@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/mybatis_day02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_day02/src/main/java/com/cai/util/mybatisUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/mybatis_day02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_day02/src/main/resources/jdbc.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_day02/src/test/java/BrandMapperTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_day02/src/test/java/OrderMapperTest.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
