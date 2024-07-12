@@ -81,9 +81,9 @@
     </update>
 <!--    删除数据-->
     <delete id="deleteBrandById">
-        delete from tb_brand where id in(
-        <foreach collection="ids" item="id" separator=",">
+        delete from tb_brand where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
             #{id}
-        </foreach>)
+        </foreach>
     </delete>
 </mapper>
