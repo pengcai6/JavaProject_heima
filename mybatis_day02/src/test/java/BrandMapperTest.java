@@ -62,7 +62,7 @@ public class BrandMapperTest {
     public void testFindBrandByCondition3() {
         SqlSession sqlSession = getSession();
         BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
-        Map map = new HashMap();
+        Map<String, String> map = new HashMap<>();
         map.put("brandName","华为");
         map.put("companyName","华为技术有限公司");
         map.put("status","1");
@@ -113,6 +113,18 @@ public class BrandMapperTest {
             System.out.println("修改成功");
         }
 
+        sqlSession.close();
+    }
+
+    @Test
+    public void testdeleteById() {
+        SqlSession sqlSession = getSession();
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+        int rowCount= brandMapper.deleteById(4);
+        if(rowCount>0){
+            sqlSession.commit();
+            System.out.println("删除成功");
+        }
         sqlSession.close();
     }
 

@@ -11,14 +11,14 @@ public interface BrandMapper {
      * 查询全部的Brand
      * @return 存储品牌信息的集合
      */
-   public List<Brand> FindAllBrand();
+    List<Brand> FindAllBrand();
 
     /**
      * 根据id查询品牌详情
      * @param id 品牌id
      * @return 品牌对象
      */
-    public Brand findById(Integer id);
+    Brand findById(Integer id);
 
     /**
      * 根据条件查询品牌数据
@@ -31,20 +31,26 @@ public interface BrandMapper {
                                      @Param("companyName") String companyName,
                                      @Param("status") int status);
     List<Brand> FindBrandByCondition2(Brand brand);
-    List<Brand> FindBrandByCondition3(Map brandmap);
+    List<Brand> FindBrandByCondition3(Map<String, String> brandmap);
 
     /**
      * 添加品牌信息
      * @param brand 品牌对象
      * @return 受影响行数
      */
-    public int addBrand(Brand brand);
+    int addBrand(Brand brand);
 
     /**
      * 修改品牌信息
      * @param brand 品牌对象
      * @return  受影响行数
      */
-    public int updateBrand(Brand brand);
+    int updateBrand(Brand brand);
 
+ /**
+  * 通过id删除品牌信息
+  * @param id 品牌id
+  * @return 受影响行数
+  */
+ int deleteById(@Param("id") int id);
 }

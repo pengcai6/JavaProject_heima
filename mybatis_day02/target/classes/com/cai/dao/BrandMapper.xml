@@ -79,4 +79,8 @@
         </set>
         where id=#{id}
     </update>
+<!--    删除数据-->
+    <delete id="deleteById">
+        delete from tb_brand where id=#{id}
+    </delete>
 </mapper>
