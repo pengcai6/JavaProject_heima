@@ -49,8 +49,8 @@ public interface BrandMapper {
 
  /**
   * 通过id删除品牌信息
-  * @param id 品牌id
+  * @param ids 品牌id
   * @return 受影响行数
   */
- int deleteById(@Param("id") int id);
+ int deleteBrandById(@Param("ids") List<Integer> ids);
 }

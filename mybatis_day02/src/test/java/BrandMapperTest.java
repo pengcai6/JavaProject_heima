@@ -3,9 +3,7 @@ import com.cai.pojo.Brand;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static com.cai.util.mybatisUtil.getSession;
 
@@ -120,7 +118,9 @@ public class BrandMapperTest {
     public void testdeleteById() {
         SqlSession sqlSession = getSession();
         BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
-        int rowCount= brandMapper.deleteById(4);
+        List<Integer> ids=new ArrayList<>();
+        Collections.addAll(ids,1,2,3);
+        int rowCount= brandMapper.deleteBrandById(ids);
         if(rowCount>0){
             sqlSession.commit();
             System.out.println("删除成功");
