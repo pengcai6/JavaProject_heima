@@ -3,14 +3,32 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cai.dao.UserMapper">
+    <!--    配置多表映射关系-->
+    <resultMap id="UserMap" type="com.cai.pojo.User" autoMapping="true">
+        <!--配置查询结果和User类的映射-->
+        <id column="user_id" property="id"/>
+        <result column="user_name" property="userName"/>
+        <!--配置一对多关系-->
+        <collection property="orders" javaType="java.util.List" ofType="com.cai.pojo.Order">
+            <!--        配置查询结果和Order类的映射-->
+            <id column="order_id" property="id"/>
+            <result column="order_number" property="orderNumber"/>
+        </collection>
+    </resultMap>
+    <!--根据用户id查询用户信息和用户下单信息-->
+    <select id="findUserById" resultMap="UserMap">
+        select tb_user.id  as user_id,
+               tb_user.user_name,
+               tb_user.name,
+               tb_user.age,
+               tb_user.password,
+               tb_user.sex,
+               tb_order.id as order_id,
+               tb_order.order_number
+        from tb_order
+                 inner join tb_user on tb_order.user_id = tb_user.id
+        where tb_user.id = #{id};
+    </select>
 
-
-
-
-<select id="findUserById" resultType="User">
-    select id,user_name as userName, password, name, age, sex
-    from tb_user
-    where id=#{id}
-</select>
 
 </mapper>

@@ -1,7 +1,4 @@
 package com.cai.pojo;
-
-
-
 /**
  * 订单表
  * 

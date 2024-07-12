@@ -1,6 +1,7 @@
 package com.cai.pojo;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class User{
 
@@ -19,6 +20,16 @@ public class User{
     private Integer age;
     //0-女 1-男
     private Integer sex;
+    //一个用户有多个订单（1：多）
+    private List<Order> orders;
+
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
+    }
 
     public Long getId() {
         return id;

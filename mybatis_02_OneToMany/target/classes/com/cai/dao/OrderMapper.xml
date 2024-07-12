@@ -7,12 +7,12 @@
 
     <resultMap id="OrderMap" type="com.cai.pojo.Order">
         <!--    配置查询结果与Order类的映射关联-->
-        <id column="order_id" property="id"></id>
-        <result column="order_number" property="orderNumber"></result>
+        <id column="order_id" property="id"/>
+        <result column="order_number" property="orderNumber"/>
 <!--            配置1对1查询-->
         <association property="Orderuser" javaType="com.cai.pojo.User" autoMapping="true">
-            <id column="user_id" property="id"></id>
-            <id column="user_name" property="userName"></id>
+            <id column="user_id" property="id"/>
+            <id column="user_name" property="userName"/>
         </association>
     </resultMap>
    <select id="findOrderByNumber" resultMap="OrderMap">
