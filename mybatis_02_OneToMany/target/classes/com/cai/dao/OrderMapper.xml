@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cai.dao.OrderMapper">
+
+
+    <resultMap id="OrderMap" type="com.cai.pojo.Order">
+        <!--    配置查询结果与Order类的映射关联-->
+        <id column="order_id" property="id"></id>
+        <result column="order_number" property="orderNumber"></result>
+<!--            配置1对1查询-->
+        <association property="Orderuser" javaType="com.cai.pojo.User" autoMapping="true">
+            <id column="user_id" property="id"></id>
+            <id column="user_name" property="userName"></id>
+        </association>
+    </resultMap>
+   <select id="findOrderByNumber" resultMap="OrderMap">
+       select  tb_order.id as order_id,
+               tb_order.order_number,
+               tb_user.id as user_id,
+               tb_user.user_name,
+               tb_user.name,
+               tb_user.age,
+               tb_user.password,
+               tb_user.sex
+
+
+       from tb_order inner join tb_user on  tb_order.user_id=tb_user.id
+       where tb_order.order_number=#{orderNumber};
+   </select>
+
+</mapper>
