@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/../mybatis_01_onrToOne/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_01_onrToOne/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_02_OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_03_annotation/pom.xml" />
       </list>
     </option>
   </component>
