@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cai.dao.UserMapper">
+
+    <!--    多表查询结果和实体类映射-->
+    <resultMap id="UserMap" type="com.cai.pojo.User" autoMapping="true">
+        <!--                配置用户数据和实体类的映射-->
+        <id column="user_id" property="id"/>
+        <!--                配置角色数据和实体类的映射-->
+        <collection property="roles" javaType="java.util.List" ofType="com.cai.pojo.Role" autoMapping="true">
+            <id column="role_id" property="id"/>
+        </collection>
+
+    </resultMap>
+    <select id="FindUserByPage" resultMap="UserMap">
+        SELECT t_user.id as user_id,
+               t_user.username,
+               t_user.password,
+               t_user.remark,
+               t_user.email,
+               t_user.createTime,
+               t_user.updateTime,
+               t_role.id as role_id,
+               t_role.name,
+               t_role.keyword,
+               t_role.description
+        from (select id, username, password, remark, email, createTime, updateTime
+              from t_user group by t_user.id
+              limit #{beginIndex},#{size} ) as t_user
+                 INNER JOIN t_user_role
+                 inner join t_role
+                            on t_user_role.user_id = t_user.id
+                                and t_user_role.role_id = t_role.id
+    </select>
+    <delete id="DeleteUserById">
+        delete from t_user_role where user_id=#{id};
+        delete from t_user where id=#{id};
+    </delete>
+
+</mapper>
