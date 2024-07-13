@@ -8,7 +8,7 @@
 
     <!--开启驼峰映射 ： 把数据表中的带有下划线的字段，变为： Java的驼峰命名方式。 例： user_name => username 或 userName-->
     <settings>
-        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="mapUnderscoreToCamelCase" value="false"/>
     </settings>
 
 
