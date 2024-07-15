@@ -72,9 +72,10 @@ public class UserServiceImpl implements UserService {
         for (Map<Integer, Integer> integerIntegerMap : mapList) {
             System.out.println(integerIntegerMap);
         }
-        User user=new User();
+        User user=userMapper.findUserByid(id);
+        user.setUsername("123456789456");
         userMapper.DeleteUserByIdInUser_Role(id);
-        userMapper.UpdateUserById(user,10);
+        userMapper.UpdateUserById(user);
         userMapper.insertNewInUser_Role(user.getId(),"1");
         userMapper.insertNewInUser_Role(user.getId(),"2");
 

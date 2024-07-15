@@ -22,11 +22,11 @@ public interface UserMapper {
      */
     @Select("select user_id, role_id from t_user_role where user_id=#{user_id}")
     List<Map<Integer,Integer>> FindAllUser_RoleById(Integer user_id);
-    @Update("update t_user set id=#{newUserId},  username =#{username} , password=#{password}, remark=#{remark}, email=#{email}, createTime=#{createTime}, updateTime=#{updateTime} where id=#{id}")
+    @Update("update t_user set  username =#{username} , password=#{password}, remark=#{remark}, email=#{email}, createTime=#{createTime}, updateTime=#{updateTime} where id=#{id}")
     @Options(
             useGeneratedKeys = true,keyColumn = "id",keyProperty = "id"
     )
-    int UpdateUserById(User user,Integer newUserId);
+    int UpdateUserById(User user);
 
 
     /**
@@ -60,6 +60,8 @@ public interface UserMapper {
     int DeleteUserByIdInUser_Role(Integer id);
 
     @Insert("Insert t_user_role(user_id, role_id) values ( #{user_id}, #{role_id})")
-    int insertNewInUser_Role(String user_id,String role_id);
+    int insertNewInUser_Role(@Param("user_id") String user_id,@Param("role_id") String role_id);
 
+    @Select( "select * from t_user where id=#{id}")
+    User findUserByid(Integer id);
 }
