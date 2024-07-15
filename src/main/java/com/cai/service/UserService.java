@@ -12,5 +12,18 @@ public interface UserService {
      * @param PageSize 每页显示的条数
      * @return
      */
-    public List<User> queryUserByPage(Integer currentPage,Integer PageSize);
+    List<User> queryUserByPage(Integer currentPage,Integer PageSize);
+
+    /**
+     * 通过id删除用户数据
+     * @param id 用户id
+     */
+    void deleteUserById(Integer id);
+
+    /**
+     * 通过id更新
+     * @param id
+     */
+    void update(Integer id);
+
 }

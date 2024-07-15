@@ -34,9 +34,5 @@
                             on t_user_role.user_id = t_user.id
                                 and t_user_role.role_id = t_role.id
     </select>
-    <delete id="DeleteUserById">
-        delete from t_user_role where user_id=#{id};
-        delete from t_user where id=#{id};
-    </delete>
 
 </mapper>

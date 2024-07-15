@@ -50,11 +50,11 @@ public class UserMapperTest {
         sqlSession.close();
     }
     @Test
-   public void DeleteUserById()
+   public void DeleteUserByIdInUser()
     {
         SqlSession sqlSession = getSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-        int rowCount = userMapper.DeleteUserById(2);
+        int rowCount = userMapper.DeleteUserByIdInUser(2);
         if(rowCount>0)
             System.out.println("删除成功");
         sqlSession.close();

@@ -9,7 +9,7 @@ import java.util.List;
 
 public class UserTest {
     @Test
-    void test(){
+    void test1(){
         UserServiceImpl userService = new UserServiceImpl();
         List<User> userList = userService.queryUserByPage(1, 3);
         for (User user : userList) {
@@ -19,5 +19,16 @@ public class UserTest {
                 System.out.println("角色信息:"+role);
             }
         }
+    }
+
+    @Test
+    void test2(){
+        UserServiceImpl userService = new UserServiceImpl();
+        userService.deleteUserById(3);
+    }
+    @Test
+    void test3(){
+        UserServiceImpl userService = new UserServiceImpl();
+        userService.update(8);
     }
 }
