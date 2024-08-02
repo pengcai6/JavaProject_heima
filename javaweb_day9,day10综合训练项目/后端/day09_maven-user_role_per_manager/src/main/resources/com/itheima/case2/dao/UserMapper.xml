@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.itheima.case2.dao.UserMapper">
+    <resultMap id="findAllResultMap" type="User" autoMapping="true">
+        <!--配置的是主表t_user和User实体类的关系-->
+        <id column="id" property="id" />
+        <result column="username" property="username"/>
+        <!--TODO:配置角色信息 一个用户有多个角色 因此在User实体类中定义集合成员变量保存多个角色信息
+         private Set<Role> roles = new HashSet<Role>(0); // 此用户对应的多个角色
+        -->
+        <collection property="roles" ofType="Role" autoMapping="true">
+        <!--配置t_role表和Role实体类关系-->
+        <id column="rid" property="id"></id>
+        </collection>
+
+
+    </resultMap>
+
+    <select id="findAll" resultMap="findAllResultMap">
+        select u.*,r.id rid,r.name,r.keyword,r.description
+        from (select * from t_user limit #{startIndex},#{pageSize}) u
+      inner join t_user_role ur
+      inner join t_role r
+                 on ur.role_id = r.id and ur.user_id=u.id;
+    </select>
+
+
+<!--    //TODO:第二个参数存放的是多个角色id，需要使用动态sql-->
+<!--       void addUIDAndRIDToUserAndRoleTable(@Param("uid") Integer id,@Param("roleIds") List<String> roleIds);
+ <foreach collection="遍历容器的名字" item="容器中每个元素的变量名" separator="文本数据中的分隔符"  open="以x开始" close="以x结尾">
+        </foreach>
+遍历容器的标签foreach
+TODO:在mybatis中如果接口方法有多个参数，要求我们必须使用@param注解修饰形参，然后在#{}中的属性用@param中的属性值来取值
+-->
+    <insert id="addUIDAndRIDToUserAndRoleTable">
+        insert into t_user_role(user_id, role_id) VALUES
+        <foreach collection="roleIds" item="rid" separator=","  >
+            (#{uid},#{rid})
+        </foreach>
+    </insert>
+
+
+</mapper>
