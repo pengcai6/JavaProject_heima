@@ -1,0 +1,12 @@
+com\itheima\service\OrderService.class
+com\itheima\AppForDi.class
+com\itheima\domain\User.class
+com\itheima\dao\UserDao.class
+com\itheima\dao\impl\OrderDaoImpl.class
+com\itheima\domain\Goods.class
+com\itheima\dao\OrderDao.class
+com\itheima\domain\Order.class
+com\itheima\service\impl\OrderServiceImpl.class
+com\itheima\dao\GoodsDao.class
+com\itheima\dao\impl\GoodsDaoImpl.class
+com\itheima\dao\impl\UserDaoImpl.class
