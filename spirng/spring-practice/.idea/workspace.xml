@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85deeb12-d880-4d23-9308-c414604cc119" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_04_di_autoware_ex/Spring_04_di_autoware_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_04_di_autoware_ex/Spring_04_di_autoware_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_04_di_autoware_ex/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_04_di_autoware_ex/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_04_di_autoware_ex/src/main/java/com/itheima/AppForDi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_04_di_autoware_ex/src/main/java/com/itheima/AppForDi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_04_di_autoware_ex/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_04_di_autoware_ex/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_04_di_autoware_ex/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_04_di_autoware_ex/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_04_di_autoware_ex/target/classes/com/itheima/AppForDi.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_04_di_autoware_ex/target/classes/com/itheima/AppForDi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/spring_01_base_ioc_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/spring_01_base_ioc_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/src/main/java/com/itheima/AppForIoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/src/main/java/com/itheima/AppForIoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/AppForIoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/AppForIoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_base_ioc_ex/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_di_ex/spring_02_base_di_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_di_ex/spring_02_base_di_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_di_ex/src/main/java/com/itheima/AppForDi.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_di_ex/src/main/java/com/itheima/AppForDi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_di_ex/src/main/java/com/itheima/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_di_ex/src/main/java/com/itheima/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_di_ex/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_di_ex/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_di_ex/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_di_ex/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_di_ex/target/classes/com/itheima/AppForDi.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_di_ex/target/classes/com/itheima/AppForDi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_di_ex/target/classes/com/itheima/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_di_ex/target/classes/com/itheima/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_03_di_simple_ex/spring_03_di_simple_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_03_di_simple_ex/spring_03_di_simple_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_03_di_simple_ex/src/main/java/com/itheima/AppForDi.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_03_di_simple_ex/src/main/java/com/itheima/AppForDi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_03_di_simple_ex/src/main/java/com/itheima/jdbc/ConnectionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_03_di_simple_ex/src/main/java/com/itheima/jdbc/ConnectionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_03_di_simple_ex/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_03_di_simple_ex/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_03_di_simple_ex/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_03_di_simple_ex/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_03_di_simple_ex/target/classes/com/itheima/AppForDi.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_03_di_simple_ex/target/classes/com/itheima/AppForDi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_03_di_simple_ex/target/classes/com/itheima/jdbc/ConnectionData.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_03_di_simple_ex/target/classes/com/itheima/jdbc/ConnectionData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_05_third_bean_ex/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_05_third_bean_ex/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_05_third_bean_ex/spring_05_third_bean_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_05_third_bean_ex/spring_05_third_bean_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_05_third_bean_ex/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_05_third_bean_ex/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_05_third_bean_ex/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_05_third_bean_ex/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_05_third_bean_ex/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_05_third_bean_ex/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_05_third_bean_ex/target/classes/com/itheima/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_05_third_bean_ex/target/classes/com/itheima/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_05_third_bean_ex/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_05_third_bean_ex/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/spring_06_annotation_ioc_di_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/spring_06_annotation_ioc_di_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/dao/impl/GoodsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/dao/impl/GoodsDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/dao/impl/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/src/main/java/com/itheima/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/dao/impl/GoodsDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/dao/impl/GoodsDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/dao/impl/OrderDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/dao/impl/OrderDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_06_annotation_ioc_di_ex/target/classes/com/itheima/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/spring_07_annotation_third_bean_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/spring_07_annotation_third_bean_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/src/main/java/com/itheima/AppForBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/src/main/java/com/itheima/AppForBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_07_annotation_third_bean_ex/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/spring_08_annotation_spring_mybatis_ex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/spring_08_annotation_spring_mybatis_ex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/src/main/java/com/itheima/AppForSpringMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/src/main/java/com/itheima/AppForSpringMybatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/src/main/java/com/itheima/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/src/main/java/com/itheima/dao/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_08_annotation_spring_mybatis_ex/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/spring_09_base_aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/spring_09_base_aop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/src/main/java/com/itheima/aop/MonitorAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/src/main/java/com/itheima/aop/MonitorAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/src/main/java/com/itheima/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/AppForAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/AppForAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/aop/MonitorAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/aop/MonitorAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_09_base_aop/target/classes/com/itheima/service/impl/OrderServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\maven\apache-maven-3.9.6" />
+        <option name="localRepository" value="E:\maven\apache-maven-3.9.6\mvn_repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2k8ThhkKIx1qG4wvOXtOUhWzjQa" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppForAop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppForBean.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppForDi (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppForDi (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppForDi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppForIoc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppForSpringMybatis.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring_04_di_autoware_ex [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring_04_di_autoware_ex [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.AppForAop">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.App" />
+      <module name="spring_05_third_bean_ex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.Config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppForAop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.AppForAop" />
+      <module name="spring_09_base_aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppForBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.AppForBean" />
+      <module name="spring_07_annotation_third_bean_ex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.Config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppForDi (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.AppForDi" />
+      <module name="spring_03_di_simple_ex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppForSpringMybatis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.AppForSpringMybatis" />
+      <module name="spring_08_annotation_spring_mybatis_ex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.App" />
+      <module name="spring_06_annotation_ioc_di_ex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.Config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppForAop" />
+        <item itemvalue="Application.AppForSpringMybatis" />
+        <item itemvalue="Application.AppForBean" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85deeb12-d880-4d23-9308-c414604cc119" name="Changes" comment="" />
+      <created>1722664324789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722664324789</updated>
+      <workItem from="1722664326168" duration="1873000" />
+      <workItem from="1722759719439" duration="4142000" />
+      <workItem from="1722767922432" duration="30000" />
+      <workItem from="1722847736495" duration="2179000" />
+      <workItem from="1722851341740" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

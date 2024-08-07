@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="bookdao" class="com.cai.dao.impl.BookDaoImpl" ></bean>
+    <bean id="bookService" class="com.cai.Service.impl.BookServiceImpl" autowire="byType">
+        <property name="bookDao"  ref="bookdao"></property>
+    </bean>
+    <bean id="ResourceService" class="com.cai.Service.impl.ResourceServiceImpl" >
+    <property name="array">
+        <array>
+            <value>array1</value>
+            <value>array2</value>
+            <value>array3</value>
+        </array>
+    </property>
+     <property name="list">
+         <list>
+             <value>list1</value>
+             <value>list2</value>
+             <value>list3</value>
+         </list>
+     </property>
+        <property name="map">
+            <map>
+                <entry key="key1" value="value1"></entry>
+                <entry key="key2" value="value2"></entry>
+                <entry key="key3" value="value3"></entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="properkey1">value1</prop>
+                <prop key="properkey2">value2</prop>
+                <prop key="properkey3">value3</prop>
+            </props>
+        </property>
+
+     <property name="set">
+         <set>
+            <value>set1</value>
+            <value>set1</value>
+            <value>set2</value>
+            <value>set3</value>
+            <value>set3</value>
+         </set>
+     </property>
+
+    </bean>
+
+</beans>
