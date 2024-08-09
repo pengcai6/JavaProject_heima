@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssm_db
+    username: root
+    password: 101027
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  # 执行admin.server地址
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:9999  # admin 服务地址
+        instance:
+          prefer-ip: true   # 显示IP
+  application:
+    name: boot_data  # 项目名称
+
+management:
+  endpoints:
+    enabled-by-default: true #暴露所有端点信息
+    web:
+      exposure:
+        include: '*'  #以web方式暴露
+
+  endpoint:
+    health:
+      enabled: true   # 开启健康检查详细信息
+      show-details: always
